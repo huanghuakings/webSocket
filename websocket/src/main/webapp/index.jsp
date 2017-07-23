@@ -25,6 +25,7 @@ Welcome<br/><input id="text" type="text"/>
     websocket.onerror = function () {
         setMessageInnerHTML("WebSocket连接发生错误");
     };
+
     //连接成功建立的回调方法
     websocket.onopen = function () {
         setMessageInnerHTML("WebSocket连接成功");
