@@ -28,7 +28,8 @@ Welcome<br/><input id="text" type="text"/>
 
     //连接成功建立的回调方法
     websocket.onopen = function () {
-        setMessageInnerHTML("WebSocket连接成功");
+
+        setMessageInnerHTML("WebSocket连接成功,真好啊");
     }
     //接收到消息的回调方法
     websocket.onmessage = function (event) {
